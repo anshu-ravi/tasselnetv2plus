@@ -147,6 +147,7 @@ class ToTensor(object):
         return {'image': image, 'target': target, 'gtcount': gtcount}
 
 
+## TODO : MODIFY THIS FOR CROPS
 class MaizeTasselDataset(Dataset):
     def __init__(self, data_dir, data_list, ratio, train=True, transform=None):
         self.data_dir = data_dir

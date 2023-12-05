@@ -71,7 +71,7 @@ VAL_EVERY = 1
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-# add a new entry here if creating a new data loader
+# TODO: ADD NEW DATALOADER add a new entry here if creating a new data loader
 dataset_list = {
     'mtc': MaizeTasselDataset,
     'wec': WhearEarDataset,
